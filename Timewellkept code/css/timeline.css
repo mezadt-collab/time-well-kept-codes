@@ -1,0 +1,124 @@
+.timeline-year-group{
+
+    margin-bottom:30px;
+
+}
+
+.timeline-year-heading{
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-size: 3.5rem;
+font-weight: 500; 
+ opacity:.95;  
+
+    color:#b08d57;
+
+    margin-bottom:20px;
+
+    letter-spacing:4px;
+
+}
+
+.timeline-item{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    margin-left:40px;
+
+    position:relative;
+
+    padding-bottom:20px;
+
+}
+
+.timeline-item:last-child{
+
+    padding-bottom:0;
+
+}
+
+.timeline-marker{
+
+    width:16px;
+
+    height:16px;
+
+    background:#b08d57;
+
+    border-radius:50%;
+
+    position:relative;
+
+    margin-right:24px;
+
+    flex-shrink:0;
+
+}
+
+.timeline-marker::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:7px;
+
+    top:16px;
+
+    width:2px;
+
+    height:100%;
+
+    background:#d8d8d8;
+
+}
+
+.timeline-item:last-child .timeline-marker::after{
+
+    display:none;
+
+}
+
+.timeline-content{
+
+    padding-bottom:5px;
+
+}
+
+.timeline-number{
+
+    color:#888;
+
+    letter-spacing:3px;
+
+    font-size:.8rem;
+
+    margin-bottom:12px;
+
+    text-transform:uppercase;
+
+}
+
+.timeline-content h3{
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-size:2rem;
+
+    margin:0 0 6px;
+
+}
+
+.timeline-content p{
+
+    color:#777;
+
+    font-size:1rem;
+
+    margin:0;
+    line-height: 1.5;
+
+}
